@@ -1,5 +1,6 @@
 # code the #greeting method here!
+name = gets.strip
+greeting(name)
 def greeting(name)
-  name = gets.strip
-puts "Hello #{name}. It's nice to meet you."
+  puts "Hello #{name}. It's nice to meet you."
 end
